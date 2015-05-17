@@ -21,7 +21,7 @@
   shell: "curl -sS https://getcomposer.org/installer | php"
   args:
     chdir: "{{ composer_local_dir }}"
-    creates: "{{ composer_local_path }}"
+    creates: "{{ composer_local_dir }}/composer.phar"
   when: _composer_global.stat.exists == false
 
 - name: "composer global"

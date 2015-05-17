@@ -21,11 +21,6 @@ moved.
 
     composer_local_dir: "/home/{{ ansible_user_id }}"
 
-`composer_local_path` is the complete local path to the local file. This value
-should not be changed.
-
-    composer_local_path: "{{ composer_local_dir }}/composer.phar"
-
 `composer_global_path` is the absolute path to the global composer executable.
 
     composer_global_path: "/usr/local/bin/composer"
