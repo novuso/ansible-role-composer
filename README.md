@@ -1,13 +1,16 @@
 # Ansible Role: Composer
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-novuso.composer-000000.svg)](https://galaxy.ansible.com/list#/roles/3814)
 [![MIT License](http://img.shields.io/badge/license-MIT-003399.svg)](http://opensource.org/licenses/MIT)
 
 An Ansible role that manages PHP Composer on Ubuntu 14.04
 
 ## Requirements
 
-Composer requires PHP 5.3.2 or greater and commonly included extensions. See
-the [installer](https://github.com/composer/getcomposer.org/blob/master/web/installer)
+Composer requires PHP 5.3.2 or greater and commonly included extensions.
+
+See the
+[installer](https://github.com/composer/getcomposer.org/blob/master/web/installer)
 for more information.
 
 ## Role Variables
