@@ -15,6 +15,8 @@ for more information.
 
 ## Role Variables
 
+Ansible variables are listed here along with their default values:
+
 `composer_local_dir` sets the directory for the local `composer.phar` download.
 If `composer_global_install` is true, the file is downloaded here before it is
 moved.
