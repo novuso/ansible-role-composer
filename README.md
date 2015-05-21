@@ -33,7 +33,7 @@ moved.
     composer_global_install: true
 
 `composer_keep_updated` flags whether or not to run `composer self-update` to
-keep composer update-to-date.
+keep composer updated.
 
     composer_keep_updated: true
 
