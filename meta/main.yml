@@ -2,7 +2,7 @@
 dependencies: []
 galaxy_info:
   author: novuso
-  description: PHP Composer for Ubuntu 14.04
+  description: Composer for Ubuntu 14.04
   company: Novuso
   license: license (MIT)
   min_ansible_version: 1.6
